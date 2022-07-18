@@ -1,3 +1,4 @@
+![Screenshot_20220718-025558](https://user-images.githubusercontent.com/76063134/179451250-be822bf5-aeab-4895-b762-8cf547469ad0.png)
 # NodemailerApp 
 The nodemailer is a module that enables an easy and automated way of sending messages from apps with Node.js. Here are some features I noted while working with nodemailer: 
 - Before we can send an email, we will need a transporter. We can create one with nodemailer by simply calling nodemailer.createTarget({servie,auth}). service specifies the provider you are using, in my case its Gmail, and since we would be connecting to a server, nodemailer needs to authenticate whoever is trying to connect. That is why we would pass in some auth data. For oauth2 which I used, we would set the type to "Oath2", pass in our oauth credentials and also a refresh token we generated.
